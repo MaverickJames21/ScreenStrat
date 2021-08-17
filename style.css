@@ -66,20 +66,31 @@ section {
    right: 16px;
  }
  
-
+.titreServices{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(199, 205, 211);
+   padding-top: 5%;
+   
+}
 
 .servicesEntreprise {
    display: flex;
-    height: 700px;
-    width: 100%;
-    background-color: rgb(199, 205, 211);
-    
+   justify-content:space-around;
+   height: 700px;
+   width: 100%;
+   padding-top: 5%; 
+   background-color: rgb(199, 205, 211);
 }
 
 .ombres_multiples_diffuses {
-   height: 600px;
-    width: 17%;
+   height: 500px;
+   width: 20%;
    box-shadow: inset 0 0 1em gold, 0 0 2em red;
+   background-color: aliceblue;
+   text-align: center;
+   padding-top: 4% ;
    /* deux ombres dans la liste et des rayons de flou pour chacune */
  }
 /*
