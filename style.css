@@ -1,0 +1,94 @@
+.responsive {
+   width: 100%;
+   height: auto;
+ }
+body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+section {
+   display: flex;
+   
+}
+
+.logo{
+    display: flex;
+    height: 60px;
+    width: 50%;
+    border: 5px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+ }
+
+ .menu{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+ }
+
+
+/* Container holding the image and the text */
+.container {
+   position: relative;
+   text-align: center;
+   color: white;
+ }
+ 
+ /* Bottom left text */
+ .bottom-left {
+   position: absolute;
+   bottom: 8px;
+   left: 16px;
+   
+ }
+ 
+ /* Top left text */
+ .top-left {
+   position: absolute;
+   top: 30px;
+   left: 70px;
+   background-color: rgb(255, 255, 255);
+   color: black;
+   height: 60%;
+   width: 30%;padding-top: 2%;
+   
+ }
+ 
+
+ 
+ /* Bottom right text */
+ .bottom-right {
+   position: absolute;
+   bottom: 8px;
+   right: 16px;
+ }
+ 
+
+
+.servicesEntreprise {
+   display: flex;
+    height: 700px;
+    width: 100%;
+    background-color: rgb(199, 205, 211);
+    
+}
+
+.ombres_multiples_diffuses {
+   height: 600px;
+    width: 17%;
+   box-shadow: inset 0 0 1em gold, 0 0 2em red;
+   /* deux ombres dans la liste et des rayons de flou pour chacune */
+ }
+/*
+@media all and (max-width: 1024px) and (min-width: 1280px)
+
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+}
+
