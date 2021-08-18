@@ -316,7 +316,7 @@ section {
  .nousContacter {
     height: 700px;
     width: 100%;
-    background-color: rgb(253, 101, 0);
+    background-color: rgb(46, 46, 46);
     padding-top: 4%
  }
  
@@ -327,7 +327,7 @@ section {
    color: white;
    height: 650px;
    width: 40%;
-   background-color: aliceblue;
+   background-color: rgb(253, 101, 0);
    margin-left: 10%;
   
 }
