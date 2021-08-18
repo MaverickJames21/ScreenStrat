@@ -52,6 +52,7 @@ section {
    color: black;
    height: 60%;
    width: 30%;padding-top: 2%;
+   font-size: large;
    
  }
 
@@ -152,6 +153,7 @@ section {
    padding-top: 15%; 
    padding-left: 5%;
    padding-right: 5%;
+   font-size: large;
    
 }
 
@@ -373,8 +375,9 @@ section {
       /* Ajouter box-sizing */
       box-sizing : border-box;
       background-color:#f2f2f2;
+      margin-top: 10%;
       padding:20px;
-      width: 100%;
+      width: 50%;
       /* redéfinition 400 + 2*20 */
       max-width: 440px;
       margin:0 auto;
