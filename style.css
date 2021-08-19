@@ -244,7 +244,7 @@ section {
 }
 
 
-/*titre,services entreprise et 4 linkbox descriptions*/
+/*titre,rencontrer l'equipe et 4 linkbox descriptions*/
 
 .titreRencontrerlequipe{
    display: flex;
@@ -256,7 +256,7 @@ section {
    color: rgb(253, 101, 0)
    
 }
-/*titre services entreprise*/
+/*titre rencontrer l'equipe*/
 .rencontrerlequipe {
    display: flex;
    justify-content:space-around;
@@ -265,7 +265,7 @@ section {
    padding-top: 5%; 
    background-color: rgb(206, 206, 206);
 }
-/*linkbox*/
+/*link box equipe*/
 .ombres_multiples_diffuses3 {
    height: 500px;
    width: 20%;
@@ -407,11 +407,17 @@ footer{
 @media all and (max-width: 1024px) and (min-width: 1280px)
 
 {
-    #parent
+    .body
     {
        display: none;
         width: auto;
         margin-left: 10px;
+    }
+    .ombres_multiples_diffuses {
+
+    }
+    aside{
+       max-width: 600px;
     }
 }
 
